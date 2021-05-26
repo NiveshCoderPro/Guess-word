@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Game Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel = "stylesheet" href = "game.css">
+    </head>
+    <body>
+        <h4 id = "player1_name"></h4>
+        <span id = "Player_1_score"></span>
+        <br>
+        <h4 id = "player2_name"></h4>
+        <span id = "Player_2_score"></span>
+        <center>
+        <h1>Guess the word game</h1>
+   <h3 id = "player_question"></h3>
+   <h3 id = "player_answer"></h3>
+   <div id = "output" class = "col-lg-6">
+       
+   </div>
+   <br>
+   <label>Send New Word <b style = "color:red">Enter the word which has 5 or more alphabets</b></label>
+   <input type = "text" id = "word" class = "form-control" placeholder="word">
+   <br>
+   <button onclick = "send()"  class = "btn btn-primary" style = "width:30%">Send</button>
+   </center>
+  </body>
+  <script src = "game_page.js"></script>
+</html>
